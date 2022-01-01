@@ -1,0 +1,1 @@
+Notes from the book "Programming Rust" by Jim Blandy
