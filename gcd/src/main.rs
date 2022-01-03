@@ -14,6 +14,12 @@ fn gcd(mut n: u64, mut m: u64) -> u64 {
     n
 }
 
+#[test]
+fn test_gcd() {
+    assert_eq!(gcd(14, 15), 1);
+    assert_eq!(gcd(10, 2), 2);
+}
+
 fn main() {
     let mut numbers = Vec::new();
 
